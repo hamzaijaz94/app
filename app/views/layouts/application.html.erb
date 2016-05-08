@@ -72,7 +72,6 @@
 
 
 
-
 <% flash.each do |name, msg| %>
 
     <ul>
@@ -83,10 +82,14 @@
 
 <% end %>
 
+<div class="container">
+  <%= yield %>
 
-<%= yield %>
-<%= if Rails.env.development?
-debug(params)
-    end %>
+  <%= render 'layouts/footer' %>
+</div>
+
+
+
+
 </body>
 </html>

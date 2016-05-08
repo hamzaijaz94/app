@@ -1,4 +1,4 @@
-$navbar-default-bgv: #8A2BE2;
+$navbar-default-bgv: black;
 
 
 @import "bootstrap-sprockets";
@@ -22,4 +22,45 @@ $navbar-default-bgv: #8A2BE2;
 
 .center{
   text-align: center;
+}
+
+.jumbotron{
+  
+  background-image: asset_url("images.jpg");
+  background-size: cover;
+  height: 380px;
+  
+}
+
+
+.jumbotron h1{
+
+ color:white;
+  margin-bottom: 30px;
+  font-weight: bold;
+
+}
+
+.btn-xlarge{
+
+  font-size: 1.7em;
+color: #2E2F30;
+}
+
+.article_actions{
+  border-top: 1px solid aquamarine;
+  padding-top: 5px;
+
+}
+
+.description{
+
+  margin-top: 0;
+}
+
+.footer{
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 2px solid black;
+color: inherit;
 }
